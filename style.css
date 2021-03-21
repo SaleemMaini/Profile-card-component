@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+.bg-pattern-top img {
+    position: absolute;
+    top: -85%;
+    left: -25%;
+}
+.bg-pattern-bottom img {
+    position: absolute;
+    bottom: -100%;
+    right:  -25%;
+}
+/* attribution */
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*   */
+
