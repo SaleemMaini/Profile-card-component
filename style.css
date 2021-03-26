@@ -5,6 +5,7 @@
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
@@ -12,9 +13,9 @@
 body {
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
-
 }
 /* Background */
+
 .bg-pattern-top img {
     position: absolute;
     top: -85%;
@@ -35,7 +36,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    overflow: hidden;
 }
+/* Card Pattern */
 .profile-card::before{
     content: '';
     background-image: url(./images/bg-pattern-card.svg);
@@ -44,7 +47,6 @@ body {
     height: 140px;
     top: 0;
     left: 0;
-    border-radius: 20px 20px 0px 0px;
 }
 /* Avatar */
 .profile-victor img {
@@ -64,7 +66,6 @@ p{
     top:58%;
     left: 50%;
     transform: translateX(-50%);
-    font-family: 'Kumbh Sans', sans-serif;
     color: hsl(229, 23%, 23%);
     font-size: 18px;
     font-weight: 700;
@@ -80,16 +81,35 @@ p span:last-child {
 .profile-info{
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 15px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 20px;
 }
 .profile-info div{
-    width: calc(25% - 5px);
+    text-align: center;
+    width: calc(25% - 10px);
+    font-size: 12px;
+}
+.profile-info div span{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
 }
 /* attribution */
 
@@ -106,4 +126,3 @@ p span:last-child {
 @media (min-width:400px) and (max-width:1440px) {
 
 }
-
