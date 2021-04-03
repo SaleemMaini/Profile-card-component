@@ -107,7 +107,7 @@ body {
     color:hsl(0, 0%, 59%);
 }
 p span:last-child {
-    font-size: 16px;
+    font-size: 14px;
 }
 .profile-card .profile-info{
     position: absolute;
@@ -120,12 +120,14 @@ p span:last-child {
 .profile-card .profile-info div{
     text-align: center;
     width: calc(25% - 10px);
-    font-size: 12px;
+    font-size: 10px;
+    color:hsl(0, 0%, 59%);
 }
 .profile-card .profile-info div span{
     display: block;
     font-size: 18px;
     font-weight: 700;
+    color: hsl(229, 23%, 23%);
     margin-bottom: 8px;
 }
 /* End Profile Card */
